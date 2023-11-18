@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import Home from "./page/Home";
+import DisplayCurrency from "./page/DisplayCurrency";
 import CurrencyProvider from "./context/CurrencyContext";
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
             <Navbar />
             {/* <CurrencyButton /> */}
 
-            <Home />
+            <DisplayCurrency />
         </CurrencyProvider>
         </>
     );
